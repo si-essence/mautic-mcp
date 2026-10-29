@@ -1,0 +1,29 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+.vitest/
+*.tsbuildinfo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.seed-credentials
+*.pem
+*.key
+
+# Logs and local reports
+*.log
+npm-debug.log*
+live-check-report.txt
+*-live-check.txt
+
+# Local data and OS/editor files
+data/
+*.sqlite
+*.db
+.DS_Store
+.idea/
+.vscode/
+
